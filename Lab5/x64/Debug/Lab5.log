@@ -1,0 +1,34 @@
+﻿Сборка начата 19.10.2023 10:56:08.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\АИСД\Лабы\Lab5\Lab5.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lab5.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Prim.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /I"C:\Program Files\Graphviz\lib" /I"C:\Program Files\Graphviz\include\graphviz" /reference gvc.h /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab5\Main.cpp(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab5\Main.cpp(32,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\АИСД\Лабы\Lab5\x64\Debug\Prim.exe" /INCREMENTAL /ILK:"x64\Debug\Prim.ilk" /NOLOGO /LIBPATH:"C:\Program Files\Graphviz\lib" gvc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\АИСД\Лабы\Lab5\x64\Debug\Prim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\АИСД\Лабы\Lab5\x64\Debug\Prim.lib" /MACHINE:X64 x64\Debug\Main.obj
+         Lab5.vcxproj -> D:\Учёба\3сем\АИСД\Лабы\Lab5\x64\Debug\Prim.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Prim.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Prim.tlog\Prim.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\АИСД\Лабы\Lab5\Lab5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\АИСД\Лабы\Lab5\Lab5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lab5.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\Учёба\3сем\АИСД\Лабы\Lab5\Lab5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\АИСД\Лабы\Lab5\Main.cpp(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+         D:\Учёба\3сем\АИСД\Лабы\Lab5\Main.cpp(32,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:00.93
