@@ -1,0 +1,20 @@
+﻿Сборка начата 16.11.2023 14:54:09.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\АИСД\Лабы\Kruskal\Kruskal.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Kruskal.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\АИСД\Лабы\Kruskal\x64\Debug\Kruskal.exe" /INCREMENTAL /ILK:"x64\Debug\Kruskal.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\АИСД\Лабы\Kruskal\x64\Debug\Kruskal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\АИСД\Лабы\Kruskal\x64\Debug\Kruskal.lib" /MACHINE:X64 x64\Debug\Mian.obj
+         LINK : не найден или не выполнена сборка D:\Учёба\3сем\АИСД\Лабы\Kruskal\x64\Debug\Kruskal.exe при последней инкрементной компоновке; выполняется полная компоновка
+         Kruskal.vcxproj -> D:\Учёба\3сем\АИСД\Лабы\Kruskal\x64\Debug\Kruskal.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Kruskal.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Kruskal.tlog\Kruskal.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\АИСД\Лабы\Kruskal\Kruskal.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.46

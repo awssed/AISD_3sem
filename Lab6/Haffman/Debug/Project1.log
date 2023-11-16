@@ -1,0 +1,36 @@
+﻿Сборка начата 26.10.2023 15:14:42.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab6(Hafman).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Phaphman.cpp
+         Phaphman.cpp
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(53,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(67,20): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(75,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Debug\Lab6(Hafman).exe" /INCREMENTAL /ILK:"Debug\Lab6(Hafman).ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Debug\Lab6(Hafman).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Debug\Lab6(Hafman).lib" /MACHINE:X86 Debug\Phaphman.obj
+         Project1.vcxproj -> D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Debug\Lab6(Hafman).exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab6(Hafman).tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab6(Hafman).tlog\Lab6(Hafman).lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Project1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(53,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+         D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(67,20): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\3сем\АИСД\Лабы\Lab6\Project1\Phaphman.cpp(75,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.48
