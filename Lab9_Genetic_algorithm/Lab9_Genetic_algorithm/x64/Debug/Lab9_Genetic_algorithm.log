@@ -1,0 +1,34 @@
+﻿Сборка начата 30.11.2023 14:52:50.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Lab9_Gen.eb6a0f00.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab9.cpp
+         lab9.cpp
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(26,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(39,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(42,32): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(64,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(92,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\x64\Debug\Lab9_Genetic_algorithm.exe" /INCREMENTAL /ILK:"x64\Debug\Lab9_Genetic_algorithm.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\x64\Debug\Lab9_Genetic_algorithm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\x64\Debug\Lab9_Genetic_algorithm.lib" /MACHINE:X64 x64\Debug\lab9.obj
+         Lab9_Genetic_algorithm.vcxproj -> D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\x64\Debug\Lab9_Genetic_algorithm.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab9_Gen.eb6a0f00.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab9_Gen.eb6a0f00.tlog\Lab9_Genetic_algorithm.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(26,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(39,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(42,32): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(64,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\Учёба\3сем\АИСД\Лабы\Lab9_Genetic_algorithm\Lab9_Genetic_algorithm\lab9.cpp(92,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:02.00
